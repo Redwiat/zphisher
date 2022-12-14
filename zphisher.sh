@@ -319,7 +319,7 @@ install_ngrok() {
 	fi
 }
 
-## Install Cloudflared
+## Install CloudFlared
 install_cloudflared() {
 	if [[ -e ".server/cloudflared" ]]; then
 		echo -e "\n${GREEN}[${WHITE}+${GREEN}]${GREEN} Cloudflared already installed."
